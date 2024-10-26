@@ -2,6 +2,7 @@ group 'cl.puntito.simple_pip_mode'
 version '1.0-SNAPSHOT'
 
 buildscript {
+    
     ext.kotlin_version = '1.8.0'
     repositories {
         google()
@@ -25,6 +26,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'cl.puntito.simple_pip_mode'
     compileSdkVersion 31
 
     compileOptions {
